@@ -1,1 +1,9 @@
-touch up_to_date
+# Command to ensure you are on the main branch
+git checkout main
+
+# Command to fetch the latest changes from the remote main branch
+git fetch origin main
+
+# Command to merge the changes from the remote main branch into your local main branch
+git merge origin/main
+
