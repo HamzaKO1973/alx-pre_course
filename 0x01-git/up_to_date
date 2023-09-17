@@ -1,9 +1,9 @@
 # Command to ensure you are on the main branch
-git checkout main
+git checkout master
 
 # Command to fetch the latest changes from the remote main branch
-git fetch origin main
+git fetch origin master
 
 # Command to merge the changes from the remote main branch into your local main branch
-git merge origin/main
+git merge origin/master
 
